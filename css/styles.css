@@ -1,0 +1,124 @@
+.colored{
+  background-color: #ff4c68;
+  color: white;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.first-1{
+text-align: left;
+}
+#title {
+  padding: 5% 15% 8%;
+}
+
+/* navbar */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* first-part */
+
+.first-heading {
+  font-size: 3.5rem;
+}
+.rotateMobile {
+  width: 300px;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+/* feature section */
+
+#features {
+  padding: 8% 6%;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+.feature-box {
+  padding: 5%;
+  font-weight: lighter;
+}
+.feature-para {
+  color: #8f8f8f;
+}
+.features-img{
+  color: red;
+  font-size: 90px;
+}
+.features-img:hover {
+  color: pink;
+}
+
+/* testimonials or review  */
+
+.Testimonials {
+  color: white;
+padding: 10%;
+  background-color: #FF7D7D;
+}
+.review-head{
+  padding:0 15%;
+}
+.dog {
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+}
+.pic-row{
+  padding: 13% 4% 0;
+}
+.img{
+  width: 90%;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 5%;
+}
+.pricing-header{
+  padding-bottom: 10%;
+}
+
+/* Download */
+
+#cta {
+  padding: 8%;
+}
+
+/* contact or footer */
+
+#footer {
+  padding: 5%;
+}
+.footer-icon {
+  padding: 2%;
+}
+
+/* for small screen devices */
+
+@media (max-width:1028px) {
+.first-1{
+    text-align: center;
+  }
+  .rotateMobile {
+    position: static;
+    transform: rotate(0);
+  }
+  .pic{
+    padding: 4%;
+  }
+.img{
+  width: 80%;
+}
+}
